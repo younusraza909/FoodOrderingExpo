@@ -35,6 +35,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <TabBarIcon name="cutlery" color={color} />
           ),
+          headerShown: false,
           headerRight: () => (
             <Link href="/modal" asChild>
               <Pressable>
